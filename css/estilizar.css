@@ -1,0 +1,24 @@
+.container{
+  margin-top: 40px;
+}
+
+.bt{
+  margin-top: 20px;
+}
+
+.bt-cad{
+  text-align: right;
+}
+
+/* Cor do Botão */
+#bt-cad{
+  background-color: #760763;
+  color: #FFF;
+  font-weight: bold;
+}
+
+/*Tamanho do Container #tm_cont */
+
+#tm_cont{
+  width: 500px;
+}
