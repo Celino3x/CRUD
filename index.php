@@ -21,10 +21,10 @@
 
               <select class="form-select" name="categoria">
                 <option selected>Categoria</option>
-                <option value="1">Periféricos</option>
-                <option value="2">Hardware</option>
-                <option value="3">Software</option>
-                <option value="4">Smartphones</option>
+                <option value="Periféricos">Periféricos</option>
+                <option value="Hardware">Hardware</option>
+                <option value="Software">Software</option>
+                <option value="Smartphones">Smartphones</option>
               </select>
 
             <div class="mb-3">
@@ -34,9 +34,12 @@
 
             <select class="form-select" name="fornecedor">
               <option selected>Fornecedor</option>
-              <option value="1">Fornecedor A</option>
-              <option value="2">Fornecedor B</option>
-              <option value="3">Fornecedor C</option>
+              <option value="LG">LG</option>
+              <option value="ACER">ACER</option>
+              <option value="Samsung">Samsung</option>
+              <option value="DELL">DELL</option>
+              <option value="Xiaomi">Xiaomi</option>
+              <option value="Xiaomi">Motorola</option>
             </select>
 
             <div class="bt-cad">
