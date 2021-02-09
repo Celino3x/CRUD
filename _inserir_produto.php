@@ -24,7 +24,7 @@ $inserir = mysqli_query($conexao, $sql);
        <p>Não garanto, acho melhor conferir no banco de dados.</p>
 
        <div class="bt-inserir">
-         <a href="index.php" role="button" class="btn btn-sm btn-primary">Cadastrar novo Ítem</a>
+         <a href="adicionar.php" role="button" class="btn btn-sm btn-primary">Cadastrar novo Ítem</a>
        </div>
     </center>
  </div>

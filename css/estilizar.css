@@ -17,6 +17,15 @@
   font-weight: bold;
 }
 
+#bt-back{
+  color: #FFF;
+  font-weight: bold;
+}
+
+.list-back{
+  text-align: right;
+}
+
 /*Tamanho do Container #tm_cont */
 
 #tm_cont{
@@ -29,4 +38,34 @@
 
 .bt-inserir{
   padding-top: 20px;
+}
+
+.lisProd{
+  margin-top: 40px;
+}
+
+.btedit{
+  color: #FFF;
+}
+
+.editID{
+  display: none;
+}
+
+.updatePro{
+  width: 400px;
+}
+
+.space{
+  margin-top: 10px;
+}
+
+.btVoltar{
+  color: #FFF;
+}
+
+/*ESTILO MENU INDEX*/
+
+.indexmenu{
+  margin-top: 100px;
 }
