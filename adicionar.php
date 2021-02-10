@@ -26,11 +26,22 @@
             </div>
 
               <select class="form-select" name="categoria">
-                <option selected>Categoria</option>
-                <option value="Periféricos">Periféricos</option>
-                <option value="Hardware">Hardware</option>
-                <option value="Software">Software</option>
-                <option value="Smartphones">Smartphones</option>
+
+                <?php
+                include 'conexao.php';
+
+                $sql = "SELECT * FROM categoria order by categoria ASC";
+                $buscar = mysqli_query($conexao,$sql);
+
+                while ($array = mysqli_fetch_array($buscar)) {
+
+                  $id_categoria = $array['id_categoria'];
+                  $nome_categoria = $array['categoria'];
+
+                  ?>
+                <option><?php echo $nome_categoria ?></option>
+
+                <?php } ?>
               </select>
 
             <div class="mb-3">

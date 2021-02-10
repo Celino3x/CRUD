@@ -4,6 +4,7 @@
 
 .bt{
   margin-top: 20px;
+  font-weight: bold;
 }
 
 .bt-cad{
@@ -68,4 +69,25 @@
 
 .indexmenu{
   margin-top: 100px;
+}
+
+/*Adicionar Categoria*/
+
+.formaddcat{
+  margin-top: 40px;
+  width: 500px;
+}
+
+.addcat{
+  text-align: right;
+}
+
+.bt-add-cat{
+  background-color: #40CB63;
+  color: #FFF;
+}
+
+/*bloco de quadros index*/
+.quad-index{
+  margin-top: 20px;
 }

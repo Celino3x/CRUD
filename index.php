@@ -12,24 +12,45 @@
 
     <div class="container indexmenu">
           <div class="row">
+
             <div class="col-sm-6">
               <div class="card">
                 <div class="card-body">
                   <h5 class="card-title">Adicionar Produto</h5>
                   <p class="card-text">Opção para incluir novos produtos em nosso estoque.</p>
-                  <a href="adicionar.php" class="btn btn-primary">Cadastrar Produto</a>
+                  <a href="adicionar.php" class="btn btn-primary"><i class="fas fa-box-open"></i>&nbsp;Cadastrar Produto</a>
                 </div>
               </div>
             </div>
             <div class="col-sm-6">
               <div class="card">
                 <div class="card-body">
-                  <h5 class="card-title">Listar de Produtos</h5>
+                  <h5 class="card-title">Lista de Produtos</h5>
                   <p class="card-text">Visualizar, editar e excluir os produtos.</p>
-                  <a href="listar.php" class="btn btn-primary">Listar Produtos</a>
+                  <a href="listar.php" class="btn btn-primary"><i class="fas fa-list-ul"></i>&nbsp;Listar Produtos</a>
                 </div>
               </div>
             </div>
+
+            <div class="col-sm-6 quad-index">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Adicionar Categoria</h5>
+                  <p class="card-text">Opção para incluir novas categorias.</p>
+                  <a href="adicionar_categoria.php" class="btn btn-primary"><i class="fas fa-layer-group"></i>&nbsp;Cadastrar Categoria</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 quad-index">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Adicionar Fornecedor</h5>
+                  <p class="card-text">Opção para incluir novos fornecedores.</p>
+                  <a href="adicionar_fornecedor.php" class="btn btn-primary"><i class="fas fa-people-carry"></i>&nbsp;Cadastrar Fornecedor</a>
+                </div>
+              </div>
+            </div>
+
           </div>
     </div>
 
