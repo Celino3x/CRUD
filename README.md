@@ -1,4 +1,4 @@
-# Sistema de Estoque Modular
+# OpenStorage
 ## Desenvolvimento de Estudo
 
 Material de estudo que contém Bootstrap + PHP + MYSQL. Esse projeto ainda está em desenvolvimento, em constante atualizações.
