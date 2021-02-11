@@ -50,13 +50,19 @@
             </div>
 
             <select class="form-select" name="fornecedor">
-              <option selected>Fornecedor</option>
-              <option value="LG">LG</option>
-              <option value="ACER">ACER</option>
-              <option value="Samsung">Samsung</option>
-              <option value="DELL">DELL</option>
-              <option value="Xiaomi">Xiaomi</option>
-              <option value="Xiaomi">Motorola</option>
+              <?php
+              include 'conexao.php';
+
+              $query = "SELECT * FROM fornecedor";
+              $buscar2 = mysqli_query($conexao, $query);
+
+              while ($array2 = mysqli_fetch_array($buscar2)){
+                $id_fornecedor = $array2['id_forn'];
+                $nome_fornecedor = $array2['nome_forn'];
+
+              ?>
+              <option><?php echo $nome_fornecedor ?></option>
+              <?php   } ?>
             </select>
 
             <div class="bt-cad">
