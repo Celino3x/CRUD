@@ -12,6 +12,7 @@
   <body>
 
     <div class="container indexmenu">
+
           <div class="row">
 
             <div class="col-sm-6">
@@ -48,6 +49,24 @@
                   <h5 class="card-title">Adicionar Fornecedor</h5>
                   <p class="card-text">Opção para incluir novos fornecedores.</p>
                   <a href="adicionar_fornecedor.php" class="btn btn-primary"><i class="fas fa-people-carry"></i>&nbsp;Cadastrar Fornecedor</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 quad-index">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Lista de Categoria</h5>
+                  <p class="card-text">Opção para listar categorias.</p>
+                  <a href="listar_categoria.php" class="btn btn-primary"><i class="fas fa-stream"></i>&nbsp;Listar Categoria</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 quad-index">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Lista Fornecedor</h5>
+                  <p class="card-text">Opção para listar fornecedores.</p>
+                  <a href="listar_fornecedor.php" class="btn btn-primary"><i class="fas fa-building"></i>&nbsp;Listar Fornecedor</a>
                 </div>
               </div>
             </div>

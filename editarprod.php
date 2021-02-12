@@ -15,6 +15,11 @@
    </head>
    <body>
      <div id="tm_cont" class="container">
+
+       <div class="list-back">
+         <a href="listar.php" id="bt-back" role="button" class="btn bt btn-primary">Voltar</a>
+       </div>
+
          <form action="_update_produto.php" method="post">
            <?php
 
@@ -62,7 +67,7 @@
              </select>
 
              <div class="bt-cad">
-               <button type="submit" id="bt-cad" class="btn bt" name="button">Editar</button>
+               <button type="submit" id="bt-cad" class="btn bt" name="button">Atualizar</button>
              </div>
 
              <?php } ?>

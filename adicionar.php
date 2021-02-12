@@ -26,6 +26,8 @@
                 <input type="text" class="form-control" name="nomeproduto" placeholder="insira o nome do produto" required autocomplete="off">
             </div>
 
+              <label>Categoria</label>
+
               <select class="form-select" name="categoria">
 
                 <?php
@@ -49,6 +51,8 @@
               <label>Quantidade</label>
                 <input type="number" class="form-control" name="quantidade" placeholder="insira a quantidade" required autocomplete="off">
             </div>
+
+            <label>Fornecedor</label>
 
             <select class="form-select" name="fornecedor">
               <?php
