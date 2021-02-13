@@ -13,7 +13,7 @@
 
     <div class="container formaddcat">
       <div class="list-back">
-        <a href="index.php" id="bt-back" role="button" class="btn bt btn-primary">Voltar</a>
+        <a href="menu.php" id="bt-back" role="button" class="btn bt btn-primary">Voltar</a>
       </div>
 
       <h3>Cadastrar Fornecedor</h3>

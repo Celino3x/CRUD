@@ -14,7 +14,7 @@
     <div class="container liscat">
 
       <div class="list-back">
-        <a href="index.php" id="bt-back" role="button" class="btn bt btn-primary">Voltar</a>
+        <a href="menu.php" id="bt-back" role="button" class="btn bt btn-primary">Voltar</a>
       </div>
 
       <h3>Lista de Categoria</h3>

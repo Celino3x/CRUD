@@ -87,11 +87,47 @@
   color: #FFF;
 }
 
-/*bloco de quadros index*/
+/*bloco de quadros menu*/
 .quad-index{
   margin-top: 20px;
 }
 
 .liscat{
   width: 500px;
+}
+
+
+/*INDEX*/
+
+.log{
+  width: 250px;
+  margin-top: 250px;
+  border-radius: 15px;
+  border: 1px solid #cccbca;
+
+  -webkit-box-shadow: 10px 10px 25px 0px rgba(194,192,194,1);
+  -moz-box-shadow: 10px 10px 25px 0px rgba(194,192,194,1);
+  box-shadow: 10px 10px 25px 0px rgba(194,192,194,1);
+}
+
+.icon{
+  width: 75px;
+  height: 75px;
+}
+
+.btlog{
+  text-align: right;
+  font-weight: bold;
+}
+
+.espace-log{
+  padding: 10px;
+}
+
+.cadUser{
+  width: 400px;
+}
+
+.form-cad{
+  text-align: right;
 }
