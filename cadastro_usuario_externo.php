@@ -14,10 +14,10 @@
     <div class="container cadUser">
       <div class="container formaddcat">
         <div class="list-back">
-          <a href="menu.php" id="bt-back" role="button" class="btn bt btn-primary">Voltar</a>
+          <a href="index.php" id="bt-back" role="button" class="btn bt btn-primary">Voltar</a>
         </div>
-        
-      <form action="_insert_usuario.php" method="post">
+
+      <form action="_insert_usuario_externo.php" method="post">
         <div class="form-group">
           <label for="">Nome do Usuário</label>
           <input type="text" name="nomeusuario" class="form-control" required autocomplete="off" placeholder="Nome Completo">
@@ -39,15 +39,7 @@
           <small>Precisa ser igual a senha digitada acima.</small>
         </div>
 
-        <div class="form-group">
-          <label>Nível de Acesso</label>
-          <select name="nivelusuario" class="form-select">
-              <option value="1">Administrador</option>
-              <option value="2">Apoio</option>
-              <option value="3">Consulta</option>
-          </select>
-        </div>
-
+      
         <div class="form-cad bt">
           <button type="submit" class="btn btn-success" name="button">Cadastrar</button>
         </div>

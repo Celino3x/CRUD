@@ -126,8 +126,23 @@
 
 .cadUser{
   width: 400px;
+  margin-top: 60px;
 }
 
 .form-cad{
   text-align: right;
+}
+
+.notcad{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+a{
+  text-decoration: none;
+  color: #4398de;
+}
+a:hover{
+  color: #63468a;
 }

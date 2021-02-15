@@ -20,7 +20,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Adicionar Produto</h5>
                   <p class="card-text">Opção para incluir novos produtos em nosso estoque.</p>
-                  <a href="adicionar.php" class="btn btn-primary"><i class="fas fa-box-open"></i>&nbsp;Cadastrar Produto</a>
+                  <a href="adicionar.php" class="btn btn-secondary"><i class="fas fa-box-open"></i>&nbsp;Cadastrar Produto</a>
                 </div>
               </div>
             </div>
@@ -29,7 +29,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Lista de Produtos</h5>
                   <p class="card-text">Visualizar, editar e excluir os produtos.</p>
-                  <a href="listar.php" class="btn btn-primary"><i class="fas fa-list-ul"></i>&nbsp;Listar Produtos</a>
+                  <a href="listar.php" class="btn btn-secondary"><i class="fas fa-list-ul"></i>&nbsp;Listar Produtos</a>
                 </div>
               </div>
             </div>
@@ -39,7 +39,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Adicionar Categoria</h5>
                   <p class="card-text">Opção para incluir novas categorias.</p>
-                  <a href="adicionar_categoria.php" class="btn btn-primary"><i class="fas fa-layer-group"></i>&nbsp;Cadastrar Categoria</a>
+                  <a href="adicionar_categoria.php" class="btn btn-secondary"><i class="fas fa-layer-group"></i>&nbsp;Cadastrar Categoria</a>
                 </div>
               </div>
             </div>
@@ -48,7 +48,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Adicionar Fornecedor</h5>
                   <p class="card-text">Opção para incluir novos fornecedores.</p>
-                  <a href="adicionar_fornecedor.php" class="btn btn-primary"><i class="fas fa-people-carry"></i>&nbsp;Cadastrar Fornecedor</a>
+                  <a href="adicionar_fornecedor.php" class="btn btn-secondary"><i class="fas fa-people-carry"></i>&nbsp;Cadastrar Fornecedor</a>
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Lista de Categoria</h5>
                   <p class="card-text">Opção para listar categorias.</p>
-                  <a href="listar_categoria.php" class="btn btn-primary"><i class="fas fa-stream"></i>&nbsp;Listar Categoria</a>
+                  <a href="listar_categoria.php" class="btn btn-secondary"><i class="fas fa-stream"></i>&nbsp;Listar Categoria</a>
                 </div>
               </div>
             </div>
@@ -66,7 +66,16 @@
                 <div class="card-body">
                   <h5 class="card-title">Lista Fornecedor</h5>
                   <p class="card-text">Opção para listar fornecedores.</p>
-                  <a href="listar_fornecedor.php" class="btn btn-primary"><i class="fas fa-building"></i>&nbsp;Listar Fornecedor</a>
+                  <a href="listar_fornecedor.php" class="btn btn-secondary"><i class="fas fa-building"></i>&nbsp;Listar Fornecedor</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 quad-index">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Aprovar Usuários</h5>
+                  <p class="card-text">Opção para Aprovar usuários cadastrados.</p>
+                  <a href="aprovar_usuario.php" class="btn btn-dark"><i class="fas fa-user-check"></i>&nbsp;Aprovar Usuários</a>
                 </div>
               </div>
             </div>
