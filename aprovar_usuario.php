@@ -48,8 +48,10 @@
                   <td><?php echo $nivel ?></td>
 
                   <td>
-                    <a class="btn btn-success btn-sm btedit" href="_aprovar_usuario.php?id=<?php echo $id_usuario ?>&nivel=<?php echo $nivel ?>" role="button"><i class="far fa-thumbs-up"></i> Aprovar</a>
-                    <a class="btn btn-danger btn-sm btedit" href="deleteusuario.php?id=<?php echo $id_usuario ?>&nivel=<?php echo $nivel ?>" role="button"><i class="far fa-trash-alt"></i> Excluir</a>
+                    <a class="btn btn-dark btn-sm btedit" href="_aprovar_usuario.php?id=<?php echo $id_usuario ?>&nivel=1" role="button"><i class="fas fa-user-cog"></i> Administrador</a>
+                    <a class="btn btn-success btn-sm btedit" href="_aprovar_usuario.php?id=<?php echo $id_usuario ?>&nivel=2" role="button"><i class="fas fa-users"></i> Apoio</a>
+                    <a class="btn btn-info btn-sm btedit" href="_aprovar_usuario.php?id=<?php echo $id_usuario ?>&nivel=3" role="button"><i class="far fa-comment-dots"></i> Consulta</a>
+                    <a class="btn btn-danger btn-sm btedit" href="deleteusuario.php?id=<?php echo $id_usuario ?>" role="button"><i class="far fa-trash-alt"></i> Excluir</a>
                   </td>
                 </tr>
 

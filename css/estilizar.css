@@ -146,3 +146,11 @@ a{
 a:hover{
   color: #63468a;
 }
+
+.aproveUser{
+  margin-top: 50px;
+}
+
+#navMenu{
+  text-align: left;
+}

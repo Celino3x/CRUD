@@ -11,6 +11,17 @@
   </head>
   <body>
 
+    <?php
+      include 'validasession.php';
+      include 'conexao.php';
+
+      $sql = "SELECT nivel_usuario FROM usuarios WHERE mail_usuario = '$usuario' AND status='Ativo'";
+      $buscar = mysqli_query($conexao, $sql);
+      $array = mysqli_fetch_array($buscar);
+      $nivel = $array['nivel_usuario'];
+     ?>
+
+
     <div class="container lisProd">
 
       <div class="list-back">
@@ -58,8 +69,19 @@
                   <td><?php echo $fornecedor ?></td>
 
                   <td>
+                    <div class="row">
+
+                      <?php
+                        if(($nivel == 1)||($nivel == 2)){
+                       ?>
                     <a class="btn btn-warning btn-sm btedit" href="editarprod.php?id=<?php echo $id_estoque ?>" role="button"><i class="far fa-edit"></i>Editar</a>
+                    <?php } ?>
+
+                    <?php
+                      if($nivel == 1){
+                     ?>
                     <a class="btn btn-danger btn-sm btedit" href="deleteprod.php?id=<?php echo $id_estoque ?>" role="button"><i class="far fa-trash-alt"></i>Excluir</a>
+                  <?php } ?>
                   </td>
                 </tr>
 

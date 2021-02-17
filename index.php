@@ -14,7 +14,7 @@
     <div class="container log">
 
       <div class="espace-log">
-          <form class="" action="index.html" method="post">
+          <form class="" action="index1.php" method="post">
             <center><img src="img/icon.png" alt="estoque" class="icon"></center>
             <div class="form-group">
               <label for="">Usuário</label>
@@ -22,12 +22,13 @@
             </div>
             <div class="form-group">
               <label for="">Senha</label>
-              <input type="password" name="usuario" class="form-control" placeholder="Senha" autocomplete="off" required>
+              <input type="password" name="senha" class="form-control" placeholder="Senha" autocomplete="off" required>
+            </div>
+            <div class="bt btlog">
+              <button type="submit" class="btn btn-success" name="button">Entrar</button>
             </div>
           </form>
-          <div class="bt btlog">
-            <button type="submit" class="btn btn-success" name="button">Entrar</button>
-          </div>
+
       </div>
       <center class="notcad">
         <small >Você não possui cadastro? Clique <a href="cadastro_usuario_externo.php">aqui</a></small>

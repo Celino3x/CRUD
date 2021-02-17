@@ -11,9 +11,23 @@
   </head>
   <body>
 
+    <?php
+      include 'validasession.php';
+      include 'conexao.php';
+
+      $sql = "SELECT nivel_usuario FROM usuarios WHERE mail_usuario = '$usuario' AND status='Ativo'";
+      $buscar = mysqli_query($conexao, $sql);
+      $array = mysqli_fetch_array($buscar);
+      $nivel = $array['nivel_usuario'];
+     ?>
+
     <div class="container indexmenu">
 
           <div class="row">
+
+            <?php
+              if(($nivel == 1)||($nivel == 2)){
+             ?>
 
             <div class="col-sm-6">
               <div class="card">
@@ -24,6 +38,9 @@
                 </div>
               </div>
             </div>
+            <?php
+            }
+             ?>
             <div class="col-sm-6">
               <div class="card">
                 <div class="card-body">
@@ -34,6 +51,10 @@
               </div>
             </div>
 
+            <?php
+              if(($nivel == 1)||($nivel == 2)){
+             ?>
+
             <div class="col-sm-6 quad-index">
               <div class="card">
                 <div class="card-body">
@@ -43,6 +64,15 @@
                 </div>
               </div>
             </div>
+
+            <?php
+            }
+             ?>
+
+             <?php
+               if(($nivel == 1)||($nivel == 2)){
+              ?>
+
             <div class="col-sm-6 quad-index">
               <div class="card">
                 <div class="card-body">
@@ -52,6 +82,11 @@
                 </div>
               </div>
             </div>
+
+            <?php
+            }
+             ?>
+
             <div class="col-sm-6 quad-index">
               <div class="card">
                 <div class="card-body">
@@ -70,6 +105,29 @@
                 </div>
               </div>
             </div>
+
+            <?php
+              if($nivel == 1){
+             ?>
+
+            <div class="col-sm-6 quad-index">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Cadastrar Usuários</h5>
+                  <p class="card-text">Cadastrar Usuários.</p>
+                  <a href="cadastro_usuario.php" class="btn btn-dark"><i class="fas fa-user-check"></i>&nbsp;Cadastrar Usuários</a>
+                </div>
+              </div>
+            </div>
+
+            <?php
+            }
+             ?>
+
+             <?php
+               if($nivel == 1){
+              ?>
+
             <div class="col-sm-6 quad-index">
               <div class="card">
                 <div class="card-body">
@@ -79,6 +137,10 @@
                 </div>
               </div>
             </div>
+
+            <?php
+            }
+             ?>
 
           </div>
     </div>
