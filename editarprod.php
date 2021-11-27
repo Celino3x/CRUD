@@ -33,6 +33,7 @@
               $categoria = $array['categoria'];
               $quantidade = $array['quantidade'];
               $fornecedor = $array['fornecedor'];
+              $responsavel = $array['responsavel'];
 
            ?>
              <div class="mb-3">
@@ -65,6 +66,11 @@
                <option value="Xiaomi">Xiaomi</option>
                <option value="Motorola">Motorola</option>
              </select>
+
+             <div class="mb-3">
+              <label>Responsável</label>
+                <input type="text" class="form-control" name="responsavel" placeholder="insira o nome do Responsável" required autocomplete="off">
+            </div>
 
              <div class="bt-cad">
                <button type="submit" id="bt-cad" class="btn bt" name="button">Atualizar</button>

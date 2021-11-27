@@ -38,6 +38,7 @@
                   <th scope="col">Categoria</th>
                   <th scope="col">Quantidade</th>
                   <th scope="col">Fornecedor</th>
+                  <th scope="col">Responsável</th>
                   <th scope="col">Ação</th>
                 </tr>
               </thead>
@@ -55,6 +56,7 @@
                     $categoria = $array['categoria'];
                     $quantidade = $array['quantidade'];
                     $fornecedor = $array['fornecedor'];
+                    $responsavel = $array['responsavel'];
                   ?>
                 <tbody>
                 <tr>
@@ -67,6 +69,8 @@
                   <td><?php echo $quantidade ?></td>
 
                   <td><?php echo $fornecedor ?></td>
+
+                  <td><?php echo $responsavel ?></td>
 
                   <td>
                     <div class="row">

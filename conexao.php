@@ -1,6 +1,6 @@
 <?php
-  $servename = "10.19.60.72";
-  $database = "crud";
+  $servename = "10.19.100.6";
+  $database = "estoque";
   $username = "celino3x";
   $password = "Jw1914JC";
 

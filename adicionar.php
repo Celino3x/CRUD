@@ -70,6 +70,11 @@
               <?php   } ?>
             </select>
 
+            <div class="mb-3">
+              <label>Responsável</label>
+                <input type="text" class="form-control" name="responsavel" placeholder="insira o nome do Responsável" required autocomplete="off">
+            </div>
+
             <div class="bt-cad">
               <button type="submit" id="bt-cad" class="btn bt" name="button">Cadastrar</button>
             </div>
